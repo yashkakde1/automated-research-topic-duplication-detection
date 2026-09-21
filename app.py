@@ -1,9 +1,22 @@
 import os
 import sys
+import subprocess
 import json
 import io
-import gradio as gr
-import pandas as pd
+
+# Automatic self-installer if dependencies are missing in the cloud/host environment
+try:
+    import gradio as gr
+    import pandas as pd
+except ImportError:
+    print("[Auto Setup] Dependencies missing. Installing from requirements.txt...")
+    req_path = os.path.join(os.path.dirname(__file__), "requirements.txt")
+    if os.path.exists(req_path):
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", req_path])
+    else:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "gradio", "pandas", "scikit-learn", "pypdf"])
+    import gradio as gr
+    import pandas as pd
 
 # Add current directory and backend directory to path so imports work seamlessly
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

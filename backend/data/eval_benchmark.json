@@ -1,0 +1,102 @@
+[
+  {
+    "id": "BENCH-001",
+    "query_title": "Automated Research Plagiarism and Topic Overlap Identification System",
+    "query_abstract": "Duplicate research topics lead to redundant academic funding and wasted institutional resources. This paper presents an automated framework for identifying plagiarized research titles and abstracts using BERT embeddings and cosine distance metrics.",
+    "candidate_id": "PAPER-005",
+    "candidate_title": "Detection of Duplicate Research Topics using NLP Vector Similarity",
+    "candidate_abstract": "Detecting duplicated or overlapping research proposals is a crucial task for academic funding agencies. In this work, we propose a automated system combining TF-IDF lexical matching and sentence-level transformer embeddings to score semantic similarity.",
+    "ground_truth_label": 1,
+    "category": "High Duplication / Overlap"
+  },
+  {
+    "id": "BENCH-002",
+    "query_title": "Deep Neural Networks with Self-Attention Mechanisms for Text Translation",
+    "query_abstract": "We present an encoder-decoder architecture relying exclusively on self-attention mechanisms to map source sequences to target target sequences without recurrent networks or convolutions.",
+    "candidate_id": "PAPER-001",
+    "candidate_title": "Attention Is All You Need for Deep Sequence Modeling",
+    "candidate_abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks. We propose the Transformer, a novel network architecture based solely on attention mechanisms.",
+    "ground_truth_label": 1,
+    "category": "High Duplication / Overlap"
+  },
+  {
+    "id": "BENCH-003",
+    "query_title": "Quantum Key Distribution Protocols for Secure Financial Transactions",
+    "query_abstract": "As quantum computing capabilities advance, conventional public-key cryptography faces catastrophic vulnerability. We investigate Quantum Key Distribution (QKD) protocols implemented over fiber-optic channels.",
+    "candidate_id": "PAPER-007",
+    "candidate_title": "Zero-Trust Security Architecture for Cloud-Native IoT Networks",
+    "candidate_abstract": "Internet of Things devices deployed in cloud-native environments are susceptible to cyberattacks. We propose a Zero-Trust Network Access model featuring micro-segmentation and Random Forest classifiers.",
+    "ground_truth_label": 0,
+    "category": "Non-Duplicate / Distinct Domain"
+  },
+  {
+    "id": "BENCH-004",
+    "query_title": "Deep Residual Convolutional Networks for High-Resolution Image Recognition",
+    "query_abstract": "Training deep convolutional neural networks suffers from vanishing gradients. We propose residual mapping shortcuts to allow optimization of 100+ layer vision networks.",
+    "candidate_id": "PAPER-003",
+    "candidate_title": "Deep Residual Learning for Image Recognition",
+    "candidate_abstract": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously.",
+    "ground_truth_label": 1,
+    "category": "High Duplication / Overlap"
+  },
+  {
+    "id": "BENCH-005",
+    "query_title": "Blockchain Based Patient Data Exchange with Ethereum Smart Contracts",
+    "query_abstract": "Electronic health records are siloed across hospital systems. We present a decentralized smart contract architecture using Ethereum and IPFS to grant permissioned access to medical history.",
+    "candidate_id": "PAPER-009",
+    "candidate_title": "Decentralized Smart Contract Framework for Healthcare Data Sharing via Blockchain",
+    "candidate_abstract": "Patient health records are traditionally siloed across multiple healthcare providers. We present a blockchain-based decentralized architecture utilizing IPFS and Ethereum smart contracts.",
+    "ground_truth_label": 1,
+    "category": "High Duplication / Overlap"
+  },
+  {
+    "id": "BENCH-006",
+    "query_title": "Reinforcement Learning for Cloud Server Workload Energy Minimization",
+    "query_abstract": "Cloud server facilities consume enormous electrical power. We apply Deep Q-Learning to schedule dynamic compute tasks across server nodes to reduce power consumption.",
+    "candidate_id": "PAPER-015",
+    "candidate_title": "Energy-Efficient Task Scheduling in Cloud Data Centers Using Deep Reinforcement Learning",
+    "candidate_abstract": "Data centers consume substantial energy, leading to high operational costs. We propose a Deep Q-Network (DQN) based dynamic task scheduling algorithm that optimizes virtual machine allocation.",
+    "ground_truth_label": 1,
+    "category": "High Duplication / Overlap"
+  },
+  {
+    "id": "BENCH-007",
+    "query_title": "Diabetic Retinopathy Screening using Convolutional Neural Networks on Eye Fundus Images",
+    "query_abstract": "Early detection of retinal eye damage in diabetic patients is essential. We train EfficientNet CNNs on fundus photo datasets to detect early signs of diabetic retinopathy with high accuracy.",
+    "candidate_id": "PAPER-008",
+    "candidate_title": "Deep Learning for Early Diagnosis of Diabetic Retinopathy from Fundus Images",
+    "candidate_abstract": "Diabetic retinopathy is a leading cause of vision impairment. We develop an automated diagnostic tool using a modified EfficientNet-B4 Convolutional Neural Network trained on fundus photographs.",
+    "ground_truth_label": 1,
+    "category": "High Duplication / Overlap"
+  },
+  {
+    "id": "BENCH-008",
+    "query_title": "Graph Neural Networks for Predicting Small Molecule Protein Target Binding",
+    "query_abstract": "Predicting drug-protein target interactions speeds up pharmacological discovery. We encode chemical graphs into Graph Convolutional Networks to estimate target binding affinities.",
+    "candidate_id": "PAPER-014",
+    "candidate_title": "Graph Neural Networks for Drug-Target Interaction Prediction",
+    "candidate_abstract": "Discovering novel drug candidates requires accurate identification of binding interactions. We present a heterogeneous Graph Neural Network model encoding molecular graphs.",
+    "ground_truth_label": 1,
+    "category": "High Duplication / Overlap"
+  },
+  {
+    "id": "BENCH-009",
+    "query_title": "Real-Time Object Detection for Self-Driving Cars using YOLO Convolutional Models",
+    "query_abstract": "Autonomous vehicles need fast object detection under bad light conditions. We implement YOLOv8 models combined with spatial attention to detect pedestrians and vehicles in real time.",
+    "candidate_id": "PAPER-012",
+    "candidate_title": "YOLOv8: Real-Time Multi-Class Object Detection for Autonomous Vehicles",
+    "candidate_abstract": "Autonomous driving systems rely heavily on fast object recognition algorithms under adverse weather conditions. We present an optimized implementation of YOLOv8 integrated with temporal attention.",
+    "ground_truth_label": 1,
+    "category": "High Duplication / Overlap"
+  },
+  {
+    "id": "BENCH-010",
+    "query_title": "Solar Energy Harvesting Optimization in Microgrid Power Systems",
+    "query_abstract": "Photovoltaic solar cells fluctuate based on ambient weather. We design Maximum Power Point Tracking (MPPT) controllers using fuzzy logic to maximize power harvesting in isolated rural microgrids.",
+    "candidate_id": "PAPER-002",
+    "candidate_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "candidate_abstract": "We introduce a new language representation model called BERT, designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on context.",
+    "ground_truth_label": 0,
+    "category": "Non-Duplicate / Distinct Domain"
+  }
+]

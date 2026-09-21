@@ -1,0 +1,152 @@
+[
+  {
+    "id": "PAPER-001",
+    "title": "Attention Is All You Need for Deep Sequence Modeling",
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose the Transformer, a novel network architecture based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.",
+    "authors": ["Vaswani et al."],
+    "domain": "Artificial Intelligence & NLP",
+    "year": 2017,
+    "keywords": ["Transformer", "Self-Attention", "Sequence Modeling", "Neural Machine Translation", "Deep Learning"],
+    "citation_count": 98500
+  },
+  {
+    "id": "PAPER-002",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of NLP tasks.",
+    "authors": ["Devlin et al."],
+    "domain": "Artificial Intelligence & NLP",
+    "year": 2019,
+    "keywords": ["BERT", "Bidirectional Transformer", "Language Representation", "Pre-training", "NLP"],
+    "citation_count": 64200
+  },
+  {
+    "id": "PAPER-003",
+    "title": "Deep Residual Learning for Image Recognition",
+    "abstract": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth.",
+    "authors": ["He et al."],
+    "domain": "Computer Vision",
+    "year": 2016,
+    "keywords": ["ResNet", "Residual Learning", "Deep Convolutional Networks", "Image Classification", "Computer Vision"],
+    "citation_count": 145000
+  },
+  {
+    "id": "PAPER-004",
+    "title": "Generative Adversarial Nets for Unsupervised Representation Learning",
+    "abstract": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake.",
+    "authors": ["Goodfellow et al."],
+    "domain": "Artificial Intelligence & NLP",
+    "year": 2014,
+    "keywords": ["GAN", "Generative Adversarial Networks", "Unsupervised Learning", "Deep Learning", "Generative Models"],
+    "citation_count": 52000
+  },
+  {
+    "id": "PAPER-005",
+    "title": "Detection of Duplicate Research Topics using NLP Vector Similarity",
+    "abstract": "Detecting duplicated or overlapping research proposals is a crucial task for academic funding agencies and university boards. In this work, we propose a automated system combining TF-IDF lexical matching and sentence-level transformer embeddings to score semantic similarity between incoming research titles/abstracts and an existing publication repository. Our method achieves an F1-score of 92.4% on a benchmark dataset of 500 peer-reviewed paper abstracts.",
+    "authors": ["Sharma, A.", "Patel, R."],
+    "domain": "Artificial Intelligence & NLP",
+    "year": 2023,
+    "keywords": ["Duplicate Detection", "NLP", "Semantic Similarity", "TF-IDF", "Sentence Embeddings"],
+    "citation_count": 48
+  },
+  {
+    "id": "PAPER-006",
+    "title": "Automated Research Plagiarism and Topic Overlap Identification System",
+    "abstract": "Duplicate research topics lead to redundant academic funding and wasted institutional resources. This paper presents an automated framework for identifying plagiarized research titles and abstracts. We utilize a hybrid approach combining BERT embeddings with Cosine Similarity and Jaccard distance metrics. Experimental evaluation demonstrates superior performance compared to traditional n-gram matching techniques.",
+    "authors": ["Gupta, M.", "Kumar, S."],
+    "domain": "Artificial Intelligence & NLP",
+    "year": 2022,
+    "keywords": ["Plagiarism Detection", "Topic Overlap", "BERT", "Cosine Similarity", "Academic Integrity"],
+    "citation_count": 32
+  },
+  {
+    "id": "PAPER-007",
+    "title": "Zero-Trust Security Architecture for Cloud-Native IoT Networks",
+    "abstract": "Internet of Things (IoT) devices deployed in cloud-native environments are susceptible to distributed cyberattacks due to heterogeneous device architectures. We propose a Zero-Trust Network Access (ZTNA) model featuring continuous micro-segmentation, identity-aware authorization, and automated threat detection using Lightweight Random Forest classifiers operating at edge gateways.",
+    "authors": ["Al-Mansoor, K.", "Smith, J."],
+    "domain": "Cybersecurity",
+    "year": 2024,
+    "keywords": ["Zero Trust", "IoT Security", "Cloud Native", "Edge Computing", "Micro-segmentation"],
+    "citation_count": 18
+  },
+  {
+    "id": "PAPER-008",
+    "title": "Deep Learning for Early Diagnosis of Diabetic Retinopathy from Fundus Images",
+    "abstract": "Diabetic retinopathy is a leading cause of vision impairment worldwide. Early diagnosis is essential to prevent permanent blindness. We develop an automated diagnostic tool using a modified EfficientNet-B4 Convolutional Neural Network trained on over 35,000 fundus photographs. The proposed model achieves 96.8% sensitivity and 95.4% specificity on test datasets.",
+    "authors": ["Chen, Y.", "Zhao, L."],
+    "domain": "Healthcare & Medical AI",
+    "year": 2023,
+    "keywords": ["Diabetic Retinopathy", "Medical Imaging", "EfficientNet", "Deep Learning", "Fundus Diagnosis"],
+    "citation_count": 115
+  },
+  {
+    "id": "PAPER-009",
+    "title": "Decentralized Smart Contract Framework for Healthcare Data Sharing via Blockchain",
+    "abstract": "Patient health records are traditionally siloed across multiple healthcare providers, hindering collaborative medical research. We present a blockchain-based decentralized architecture utilizing InterPlanetary File System (IPFS) and Ethereum smart contracts to enable permissioned, tamper-proof medical record sharing while preserving patient privacy through zero-knowledge proofs.",
+    "authors": ["O'Connor, E.", "Nakamoto, D."],
+    "domain": "Blockchain & Cryptography",
+    "year": 2023,
+    "keywords": ["Blockchain", "Healthcare", "Smart Contracts", "IPFS", "Zero-Knowledge Proofs"],
+    "citation_count": 87
+  },
+  {
+    "id": "PAPER-010",
+    "title": "Edge Computing and Federated Learning for Smart City Traffic Management",
+    "abstract": "Real-time traffic management in metropolitan smart cities requires decentralized computing due to high latency and bandwidth limitations. This paper presents a federated learning framework integrated with edge computing infrastructure to predict traffic congestion dynamically across distributed traffic camera nodes without centralizing raw video streams.",
+    "authors": ["Martinez, R.", "Venkatesh, P."],
+    "domain": "IoT & Smart Cities",
+    "year": 2024,
+    "keywords": ["Federated Learning", "Edge Computing", "Smart Cities", "Traffic Optimization", "Privacy Preserving"],
+    "citation_count": 42
+  },
+  {
+    "id": "PAPER-011",
+    "title": "Quantum Key Distribution Protocols for Secure Financial Transactions",
+    "abstract": "As quantum computing capabilities advance, conventional public-key cryptography faces catastrophic vulnerability. We investigate Quantum Key Distribution (QKD) protocols, specifically BB84 and E91, implemented over fiber-optic communication channels for secure inter-bank financial transactions.",
+    "authors": ["Zheng, H.", "Miller, T."],
+    "domain": "Quantum Computing & Physics",
+    "year": 2024,
+    "keywords": ["Quantum Key Distribution", "QKD", "BB84", "Cryptography", "Quantum Security"],
+    "citation_count": 29
+  },
+  {
+    "id": "PAPER-012",
+    "title": "YOLOv8: Real-Time Multi-Class Object Detection for Autonomous Vehicles",
+    "abstract": "Autonomous driving systems rely heavily on fast and accurate object recognition algorithms under adverse weather conditions. We present an optimized implementation of YOLOv8 integrated with a temporal attention module for detecting pedestrians, vehicles, and road obstacles from multi-spectral camera inputs in real time.",
+    "authors": ["Redmon, J.", "Bochkovskiy, A."],
+    "domain": "Computer Vision",
+    "year": 2023,
+    "keywords": ["YOLO", "Object Detection", "Autonomous Driving", "Computer Vision", "Real-Time Processing"],
+    "citation_count": 310
+  },
+  {
+    "id": "PAPER-013",
+    "title": "Explainable AI (XAI) for Credit Scoring in Financial Institutions",
+    "abstract": "Machine learning models used in credit risk assessment are often criticized for their opaque black-box nature. In this paper, we propose an Explainable AI framework combining SHAP (SHapley Additive exPlanations) and LIME to interpret gradient-boosted decision tree predictions for loan applicant scoring, ensuring compliance with banking regulatory standards.",
+    "authors": ["Lundberg, S.", "Lee, S."],
+    "domain": "Finance & Data Science",
+    "year": 2022,
+    "keywords": ["Explainable AI", "XAI", "Credit Scoring", "SHAP", "LIME", "Financial Risk"],
+    "citation_count": 195
+  },
+  {
+    "id": "PAPER-014",
+    "title": "Graph Neural Networks for Drug-Target Interaction Prediction",
+    "abstract": "Discovering novel drug candidates requires accurate identification of binding interactions between small molecules and target proteins. We present a heterogeneous Graph Neural Network (GNN) model that encodes molecular graph structures and protein amino acid sequences to predict binding affinities with high precision.",
+    "authors": ["Kipf, T.", "Welling, M."],
+    "domain": "Bioinformatics & Healthcare",
+    "year": 2023,
+    "keywords": ["Graph Neural Networks", "GNN", "Drug Discovery", "Bioinformatics", "Molecular Graphs"],
+    "citation_count": 230
+  },
+  {
+    "id": "PAPER-015",
+    "title": "Energy-Efficient Task Scheduling in Cloud Data Centers Using Deep Reinforcement Learning",
+    "abstract": "Data centers consume substantial energy, leading to high operational costs and carbon emissions. We propose a Deep Q-Network (DQN) based dynamic task scheduling algorithm that optimizes virtual machine allocation based on workload prediction and server thermal distribution, achieving a 22.4% reduction in overall energy usage.",
+    "authors": ["Wang, X.", "Zhang, L."],
+    "domain": "Cloud Computing",
+    "year": 2023,
+    "keywords": ["Reinforcement Learning", "Cloud Computing", "Energy Efficiency", "Task Scheduling", "DQN"],
+    "citation_count": 64
+  }
+]
